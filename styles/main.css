@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+main {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.main--logo {
+}
+
+.main--indice {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+.main--indice a {
+    font-size: 2rem;
+    margin-top: 12px;
+    text-decoration: none;
+}
