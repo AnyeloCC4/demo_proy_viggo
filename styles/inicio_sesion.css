@@ -33,9 +33,13 @@ main {
     align-items: center;
     height: 60vh;
     width: inherit;
-    padding: 20px;
     background-color: aliceblue;
+    max-width: 640px;
+    margin: 0 auto;
 
+}
+.main--form form {
+    width: 100%;
 }
 
 .main--form form label {
@@ -48,21 +52,25 @@ main {
 
 .main--form form label button {
     background-color: rgb(51, 118, 204);
+    border: none;
+    box-shadow: 2px 2px 4px 0px gray;
     color: white;
     border-radius: 6px;
     font-family: 'Asap', sans-serif;
     font-size: 1.6rem;
     margin-top: 20px;
-    width: 250px;
+    min-width: 90%;
     height: 36px;
 }
 
 .main--form form input {
+    border: none;
     border-radius: 8px;
+    box-shadow: 2px 2px 4px 0px gray;
     font-family: 'Asap', sans-serif;
     font-size: 1.6rem;
     padding-left: 8px;
-    width: 300px;
+    min-width: 90%;
     height: 30px;
 }
 
@@ -71,15 +79,17 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 24px 0;
+    margin: 24px auto;
     padding-bottom: 24px;
     text-decoration: none;
-    border-bottom: 1px solid rgb(116, 116, 116);
-
+    border-bottom: 1px solid gray;
+    width: 90%;
 }
 
 .main--form__account {
     background-color: rgb(19, 133, 148);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 0px gray;
     color: white;
     display: flex;
     justify-content: center;
@@ -88,4 +98,5 @@ main {
     width: 80%;
     max-width: 350px;
     text-decoration: none;
+    text-align: center;
 }
