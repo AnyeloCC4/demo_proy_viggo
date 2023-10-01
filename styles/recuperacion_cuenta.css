@@ -7,5 +7,110 @@
 html {
     font-size: 62.5%;
     font-family: 'Asap', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+main {
+    height: 100vh;
+}
 
+.main--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--logo a img {
+    height: 150px;
+}
+
+.main--form {
+    border-radius: 24px;
+    box-shadow: 1px 1px 4px 0px gray;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    max-height: 480px;
+    width: inherit;
+    background-color: aliceblue;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.main--form h2 {
+    font-size: 2.4rem;
+    color: rgb(78, 78, 78);
+    text-decoration: underline;
+}
+
+.main--form p {
+    font-size: 1.6rem;
+    color: rgb(75, 74, 74);
+    width: 90%;
+    text-align: center;
+}
+
+.main--form form {
+    width: 100%;
+}
+
+.main--form form label {
+    display: flex;
+    height: 130px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.main--form form label button {
+    background-color: rgb(51, 118, 204);
+    border: none;
+    box-shadow: 2px 2px 4px 0px gray;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    min-width: 90%;
+    height: 36px;
+}
+
+.main--form form input {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 0px gray;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 8px;
+    min-width: 90%;
+    height: 30px;
+}
+
+.main--form__account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main--form__account a {
+    background-color: rgb(19, 133, 148);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 0px gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    padding: 10px;
+    width: 80%;
+    max-width: 350px;
+    text-decoration: none;
+    text-align: center;
 }
